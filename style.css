@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+.header__title {
+  color: #ff3366;
+ text-shadow: 2px 1px 2px #cc0033;
+ font-family: 'Lobster',cursuve;}
+
+ .article {font-family: 'Lobster',cursuve;}
+
+.article__picture {
+  width: 60%;
+  }
+ .article__button_morning {
+   color: darkblue;
+   background: orange;
+   opacity: .5;/* видимость элемента */
+   box-shadow: 5px 5px 2px yellow; /* тень блока */
+   cursor: pointer; /* при наведение указывает лапку */
+   transition: 5s linear;
+   height: 50px;
+ }
+.ring {
+  color: purple;
+  column-count:3;
+  column-width: 50px;
+  column-rule-color: maroon;
+  column-rule-style: double;
+  font-family: sans-serif;
+}
+.body {background-color: #e2d59f;}
+.body__text {
+  text-indent: 15px;
+  white-space: pre-wrap;
+  }
+.body__text_sunrise {
+  border-top: 5px dotted red;
+  border-left: 3px dotted red;
+}
+.bird {
+  text-decoration: underline wavy red;
+  }
+  .body__text { 
+  font-family:cursive;
+  }
+  .li { list-style-type: decimal;
+    padding: 10px 40px;
+    color: purple;
+    background: white;
+    border-bottom: 2px dotted grey;
+    border-top: 2px dotted grey;
+   line-height: 1.5;
+  }
+  .caption /* заголовок в таблице */ {
+    padding: 25px;
+    font-family: annabelle, cursive;
+    font-weight: bold;
+  }
+  caption:before, caption:after {
+    content:"\274B \274B \274B \274B";
+    color: blue;
+    margin: 0 20px;
+  }
+  .table {border: 2px dotted darkblue;
+        border-spacing:10px;
+        border-collapse: collapse; /* убрать промежутки м/у ячейками */
+        width:80%;
+        background: orange;
+        }
+  .th {border: 3px dotted darkblue;
+ border-collapse: collapse; }
+  .body__text_coldwater:before, .body__text_coldwater:after {
+   content: "\2740 YES";
+   font-family: /* 'Dancing Script', */ cursive;
+   text-shadow: 5px 5px 7px grey;
+    color: red;
+    font-size: 60px;
+    position: center;
+    display: block;
+  }
