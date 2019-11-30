@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
 .header__title {
   color: #ff3366;
  text-shadow: 2px 1px 2px #cc0033;
- font-family: 'Lobster',cursuve;}
-
- .article {font-family: 'Lobster',cursuve;}
-
+ font-family: 'Lobster',cursuve;
+ }
+ .article { font-family: 'Teko', sans-serif; }
 .article__picture {
   width: 60%;
   }
@@ -24,12 +24,13 @@
   column-width: 50px;
   column-rule-color: maroon;
   column-rule-style: double;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
 }
 .body {background-color: #e2d59f;}
 .body__text {
   text-indent: 15px;
   white-space: pre-wrap;
+ 
   }
 .body__text_sunrise {
   border-top: 5px dotted red;
@@ -37,9 +38,6 @@
 }
 .bird {
   text-decoration: underline wavy red;
-  }
-  .body__text { 
-  font-family:cursive;
   }
   .li { list-style-type: decimal;
     padding: 10px 40px;
@@ -51,7 +49,7 @@
   }
   .caption /* заголовок в таблице */ {
     padding: 25px;
-    font-family: annabelle, cursive;
+   /*  font-family: annabelle, cursive; */
     font-weight: bold;
   }
   caption:before, caption:after {
@@ -69,7 +67,7 @@
  border-collapse: collapse; }
   .body__text_coldwater:before, .body__text_coldwater:after {
    content: "\2740 YES";
-   font-family: /* 'Dancing Script', */ cursive;
+ /*   font-family: 'Dancing Script', cursive; */
    text-shadow: 5px 5px 7px grey;
     color: red;
     font-size: 60px;
